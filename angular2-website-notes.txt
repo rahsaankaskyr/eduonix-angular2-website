@@ -22,3 +22,9 @@ Change the start field in package.json from
 to
 
     "start": "concurrently \"npm run tsc:w\" \"npm run lite\" "
+
+
+
+  "scripts":{
+    "start": "tsc && concurrently \"tsc:w\" \"lite-server\" "
+  },
