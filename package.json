@@ -10,6 +10,10 @@
     "typings": "typings"
   },
   "license": "ISC",
+
+  "scripts":{
+    "start": "tsc && concurrently \"tsc:w\" \"lite-server\" "
+  },
   "dependencies": {
     "@angular/common": "2.0.0",
     "@angular/compiler": "2.0.0",
