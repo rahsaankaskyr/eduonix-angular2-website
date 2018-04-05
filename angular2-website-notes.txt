@@ -1,0 +1,24 @@
+
+
+1) install latest version of node js by using below link
+https://nodejs.org/en/
+2) In your package.json file update the latest version of typescript by using
+npm install -g typescript@latest OR npm update -g typescript
+3) run below command
+npm install
+
+
+
+npm run tsc:w npm run lite
+
+
+
+Change the start field in package.json from
+
+"start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" "
+
+to
+
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" "
