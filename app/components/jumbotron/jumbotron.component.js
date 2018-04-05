@@ -8,8 +8,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var JumbotronComponent = (function () {
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = require("@angular/core");
+var JumbotronComponent = /** @class */ (function () {
     function JumbotronComponent() {
         this.jbtHeading = "Hello World";
         this.jbtText = "This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.";
@@ -21,8 +22,8 @@ var JumbotronComponent = (function () {
             moduleId: module.id,
             selector: 'jumbotron',
             templateUrl: 'jumbotron.component.html'
-        }), 
-        __metadata('design:paramtypes', [])
+        }),
+        __metadata("design:paramtypes", [])
     ], JumbotronComponent);
     return JumbotronComponent;
 }());
